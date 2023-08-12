@@ -1,0 +1,141 @@
+* { /*deixar o titulo bonito*/
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2
+section h3 {
+    font-family: 'Bungee Shade', cursive;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+header {  /*Colocar um fundo no título e mudar a cor da letra*/
+    padding: 16px 0;
+    background-color: rgb(118, 35, 186);
+    color: rgb(0, 255, 255);
+}
+
+
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+header nav li a { /*colocar cor Sobre a loja e Meu contato*/
+    color: aqua;
+    text-decoration: none; /*tirar o ___ de baixo do Sibre e Meu contato*/
+}
+
+.container { /*adicionar em um container              e font-weight deixa em negrito*/
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {   
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*colocar Meu contato e Sobre do lado esquerdo*/
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: rgb(2, 203, 203);
+}
+
+section {
+    color:rgb(2, 203, 203);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-link img {
+    height: 24px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.social-link li a {
+    text-decoration: none;
+}
+
+.social-link li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.contact-methods {
+    display: flex ;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 28px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: rgb(118, 35, 186);
+    color:aliceblue;
+    border: none;
+    cursor: pointer; /*deixar o botão com um dedo*/
+}
+
+form button:hover{
+    background-color: rgb(118, 50, 173);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(94, 9, 172);
+}
+
+footer{
+    background-color:rgb(94, 9, 172) ;
+    color: aqua;
+    padding: 16pix 0;
+}
